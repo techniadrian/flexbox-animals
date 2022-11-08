@@ -1,0 +1,155 @@
+/* LEVEL 1 */
+#game[data-lvl="1"] #animals {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* LEVEL 2 */
+#game[data-lvl="2"] #animals {
+  display: flex;
+  justify-content: center;
+}
+
+/* LEVEL 3 */
+#game[data-lvl="3"] #animals {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* LEVEL 4 */
+#game[data-lvl="4"] #animals {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* LEVEL 5 */
+#game[data-lvl="5"] #animals {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* LEVEL 6 */
+#game[data-lvl="6"] #animals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LEVEL 7 */
+#game[data-lvl="7"] #animals {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* LEVEL 8 */
+#game[data-lvl="8"] #animals {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* LEVEL 9 */
+#game[data-lvl="9"] #animals {
+  display: flex;
+  flex-direction: column;
+}
+
+/* LEVEL 10 */
+#game[data-lvl="10"] #animals {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/* LEVEL 11 */
+#game[data-lvl="11"] #animals {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* LEVEL 12 */
+#game[data-lvl="12"] #animals {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+/* LEVEL 13 */
+#game[data-lvl="13"] #animals {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* LEVEL 14 */
+#game[data-lvl="14"] #animals > .crab {
+  order: 2;
+}
+
+/* LEVEL 15 */
+#game[data-lvl="15"] #animals > .fish {
+  order: -1;
+}
+
+/* LEVEL 16 */
+#game[data-lvl="16"] #animals > .pig {
+  order: 2;
+}
+
+/* LEVEL 17 */
+#game[data-lvl="17"] #animals > .camel {
+  align-self: flex-end;
+  order: 2;
+}
+
+/* LEVEL 18 */
+#game[data-lvl="18"] #animals {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* LEVEL 19 */
+#game[data-lvl="19"] #animals {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* LEVEL 20 */
+#game[data-lvl="20"] #animals {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* LEVEL 21 */
+#game[data-lvl="21"] #animals {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+/* LEVEL 22 */
+#game[data-lvl="22"] #animals {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+/* LEVEL 23 */
+#game[data-lvl="23"] #animals {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+/* LEVEL 24 */
+#game[data-lvl="24"] #animals {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+  justify-content: center;
+}

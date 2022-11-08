@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./helpers/game.css" rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans&family=Poppins&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.5.2/rxjs.umd.js"></script>
+    <script src="./helpers/confetti.js"></script>
+
+    <script src="./helpers/game_encrypt.js" defer></script>
+  </head>
+  <body id="game" data-lvl="1">
+    <div id="bar" style="display: none">Wracaj do VS Code!</div>
+    <div id="content">
+      <div id="top">
+        <div>
+          <h1>Lvl <span id="current-level"></span></h1>
+          <p id="prompt">Brak podpowiedzi.</p>
+        </div>
+
+        <div id="log"></div>
+        <div id="controlls">
+          <button id="show-axes">
+            <span class="material-symbols-outlined"> straight </span>
+            <span class="material-symbols-outlined"> straight </span>
+          </button>
+          <button id="prev-level" disabled="true">Prev lvl</button>
+          <button id="next-level" disabled="true">Next lvl</button>
+        </div>
+      </div>
+      <div id="board">
+        <div>
+          <div id="animals"></div>
+          <div id="background"></div>
+          <div id="helpers">
+            <div id="axes">
+              <div class="arrow cross-axis">
+                <div class="line"></div>
+                <div class="point"></div>
+              </div>
+              <div class="arrow main-axis">
+                <div class="line"></div>
+                <div class="point"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

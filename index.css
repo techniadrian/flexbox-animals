@@ -1,0 +1,138 @@
+/* 
+  WAŻNE!!!
+  1. Nie tworzymy własnych selektorów! 
+     Jedyne co robimy, to modyfikujemy kod pomiędzy klamrami.
+  2. Używamy "flex-start" a nie "start"; używamy "flex-end" a nie "end"!
+*/
+
+/* LEVEL 1 */
+#game[data-lvl="1"] #animals {
+  display: flex;
+}
+
+/* LEVEL 2 */
+#game[data-lvl="2"] #animals {
+  display: flex;
+}
+
+/* LEVEL 3 */
+#game[data-lvl="3"] #animals {
+  display: flex;
+}
+
+/* LEVEL 4 */
+#game[data-lvl="4"] #animals {
+  display: flex;
+}
+
+/* LEVEL 5 */
+#game[data-lvl="5"] #animals {
+  display: flex;
+}
+
+/* LEVEL 6 */
+#game[data-lvl="6"] #animals {
+  display: flex;
+}
+
+/* LEVEL 7 */
+#game[data-lvl="7"] #animals {
+  display: flex;
+}
+
+/* LEVEL 8 */
+#game[data-lvl="8"] #animals {
+  display: flex;
+}
+
+/* LEVEL 9 */
+#game[data-lvl="9"] #animals {
+  display: flex;
+}
+
+/* LEVEL 10 */
+#game[data-lvl="10"] #animals {
+  display: flex;
+}
+
+/* LEVEL 11 */
+#game[data-lvl="11"] #animals {
+  display: flex;
+}
+
+/* LEVEL 12 */
+#game[data-lvl="12"] #animals {
+  display: flex;
+}
+
+/* LEVEL 13 */
+#game[data-lvl="13"] #animals {
+  display: flex;
+}
+
+/* LEVEL 14 (NIE TWORZYMY WŁASNYCH SELEKTORÓW!!!) */
+#game[data-lvl="14"] #animals {
+  display: flex;
+}
+
+#game[data-lvl="14"] #animals > .crab {
+}
+
+/* LEVEL 15 (NIE TWORZYMY WŁASNYCH SELEKTORÓW!!!) */
+#game[data-lvl="15"] #animals {
+  display: flex;
+}
+
+#game[data-lvl="15"] #animals > .fish {
+}
+
+/* LEVEL 16 (NIE TWORZYMY WŁASNYCH SELEKTORÓW!!!) */
+#game[data-lvl="16"] #animals {
+  display: flex;
+}
+
+#game[data-lvl="16"] #animals > .pig {
+}
+
+/* LEVEL 17 (NIE TWORZYMY WŁASNYCH SELEKTORÓW!!!) */
+#game[data-lvl="17"] #animals {
+  display: flex;
+}
+
+#game[data-lvl="17"] #animals > .camel {
+}
+
+/* LEVEL 18 */
+#game[data-lvl="18"] #animals {
+  display: flex;
+}
+
+/* LEVEL 19 */
+#game[data-lvl="19"] #animals {
+  display: flex;
+}
+
+/* LEVEL 20 */
+#game[data-lvl="20"] #animals {
+  display: flex;
+}
+
+/* LEVEL 21 */
+#game[data-lvl="21"] #animals {
+  display: flex;
+}
+
+/* LEVEL 22 */
+#game[data-lvl="22"] #animals {
+  display: flex;
+}
+
+/* LEVEL 23 */
+#game[data-lvl="23"] #animals {
+  display: flex;
+}
+
+/* LEVEL 24 */
+#game[data-lvl="24"] #animals {
+  display: flex;
+}
